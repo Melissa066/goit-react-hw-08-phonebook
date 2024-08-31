@@ -5,11 +5,11 @@ const theme = extendTheme({
   styles: {
     global: {
       body: {
-        bg: 'white', // Minimalist white background
-        color: 'gray.800', // Dark text color for contrast
+        bg: 'white', 
+        color: 'gray.800', 
       },
       a: {
-        textDecoration: 'none', // Remove underline from links
+        textDecoration: 'none', 
       },
     },
   },

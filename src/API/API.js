@@ -23,7 +23,7 @@ const setCurrentToken = token => {
   setToken.unset();
 };
 
-// user functions
+
 
 export async function register(signupData) {
   const { data } = await instance.post('/users/signup', signupData);
@@ -54,7 +54,7 @@ export async function logout() {
   return data.data;
 }
 
-// contacts functions
+
 
 export async function fetchContactsFromAPI() {
   const data = await instance.get('/contacts');
